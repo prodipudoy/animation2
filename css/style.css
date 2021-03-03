@@ -1,0 +1,158 @@
+*{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	overflow-x: hidden; 
+	
+}
+
+.main_contain{
+
+}
+.animation_box1{
+	position: relative;
+}
+.animation_box1 p, .animation_box3 p, .animation_box4 p{
+	margin-left: 12%;
+}
+.top_bar{
+	text-align: right;
+	width: 70%;
+	background-color: orange;
+	height: 5px;
+	
+}
+.animation_box1:before{
+	position: absolute;
+	content: "";
+	height: 20px;
+	width: 5px;
+	top: 0;
+	right: 30%;
+	background-color: orange;
+
+}
+.img_box1{
+	height: 200px;
+	width: 200px;
+	right: 0;
+	
+}
+.img_box1 img{
+	margin-top: 20px;
+	border-radius: 50%;
+	width: 70%;
+
+
+}
+.middle_bar{
+	height: 120px;
+	width: 5px;
+	margin-left: 30%;
+	background-color: orange;
+}
+.img_box2{
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	margin-left: 0%;
+	
+}
+.img_box2 img{
+	border-radius: 50%;
+	width: 70%;
+
+
+}
+.right_bar{
+	text-align: right;
+	width: 70%;
+	background-color: orange;
+	height: 5px;
+
+
+}
+.animation_box3:before{
+	position: absolute;
+	content: "";
+	height: 20px;
+	width: 5px;
+	top: 0;
+	left: 30%;
+	background-color: orange;
+
+}
+
+.img_box3{
+	height: 200px;
+	width: 200px;
+	left: 14%;
+	
+}
+.img_box3 img{
+	margin-top: 20px;
+	border-radius: 50%;
+	width: 70%;
+
+
+}
+
+.middle_bar2{
+	height: 120px;
+	width: 5px;
+	margin-left: 79%;
+	background-color: orange;
+}
+
+
+.animation_box4{
+	height: 200px;
+	width: 200px;
+	text-align: center;
+	margin-left: 55%;
+}
+
+
+
+.diff_bar{
+	border-right: 5px solid orange;
+	margin-right: 20%;
+}
+
+#videoBG{
+	position: fixed;
+	z-index: -1;
+	right: 0;
+  	bottom: 0;
+	min-width: 100%; 
+  min-height: 100%;
+}
+.profile_box img{
+	border-radius: 50%;
+}
+
+.btn_box button{
+	padding: 10px  20px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
